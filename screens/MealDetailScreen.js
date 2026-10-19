@@ -13,6 +13,7 @@ import Subtitle from "../components/MealDetail/Subtitle";
 import List from "../components/MealDetail/List";
 import { useLayoutEffect } from "react";
 import IconButton from "../components/IconButton";
+import Colors from "../constants/colors";
 
 function MealDetailScreen({ route, navigation }) {
   const mealId = route.params.mealId;
@@ -64,6 +65,7 @@ export default MealDetailScreen;
 const styles = StyleSheet.create({
   rootcontainer: {
     marginBottom: 32,
+    backgroundColor: Colors.bg500,
   },
   image: {
     width: "100%",
@@ -74,10 +76,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
     margin: 8,
     textAlign: "center",
-    color: "white",
+    color: Colors.text500,
   },
   detailText: {
-    color: "white",
+    color: Colors.text200,
   },
   listouterContainer: {
     alignItems: "center",
