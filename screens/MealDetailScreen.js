@@ -30,7 +30,7 @@ function MealDetailScreen({ route, navigation }) {
         return (
           <IconButton
             icon="star"
-            color="white"
+            color={Colors.accent}
             onPress={headerButtonPressHandler}
           />
         );
@@ -65,7 +65,7 @@ export default MealDetailScreen;
 const styles = StyleSheet.create({
   rootcontainer: {
     marginBottom: 32,
-    backgroundColor: Colors.bg500,
+    backgroundColor: Colors.bg200,
   },
   image: {
     width: "100%",

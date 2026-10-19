@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
+import Colors from "../constants/colors";
 
 function MealDetails({
   duration,
@@ -32,5 +33,6 @@ const styles = StyleSheet.create({
   detailitem: {
     fontSize: 12,
     marginHorizontal: 12,
+    color: Colors.text200,
   },
 });

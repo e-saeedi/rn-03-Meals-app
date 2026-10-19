@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import MealDetails from "./MealDetails";
+import Colors from "../constants/colors";
 
 function MealItem({
   id,
@@ -53,7 +54,7 @@ export default MealItem;
 const styles = StyleSheet.create({
   mealItem: {
     margin: 16,
-    backgroundColor: "white",
+    backgroundColor: Colors.bg200,
     borderRadius: 8,
     overflow: Platform.OS === "android" ? "hidden" : "visible",
     elevation: 4,
@@ -78,5 +79,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     margin: 8,
+    color: Colors.text500,
   },
 });
