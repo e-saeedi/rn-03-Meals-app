@@ -7,8 +7,8 @@ import {
   Platform,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import MealDetails from "./MealDetails";
-import Colors from "../constants/colors";
+import MealDetails from "../MealDetails";
+import Colors from "../../constants/colors";
 
 function MealItem({
   id,
