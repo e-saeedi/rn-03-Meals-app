@@ -3,16 +3,16 @@ import Meal from "../models/meal";
 import Colors from "../constants/colors";
 
 export const CATEGORIES = [
-  new Category("c1", "Italian", Colors.catItalian),
-  new Category("c2", "Quick & Easy", Colors.catQuick),
-  new Category("c3", "Hamburgers", Colors.catHam),
-  new Category("c4", "German", Colors.catGerman),
-  new Category("c5", "Light & Lovely", Colors.catLight),
-  new Category("c6", "Exotic", Colors.catExotic),
-  new Category("c7", "Breakfast", Colors.catBreakfast),
-  new Category("c8", "Asian", Colors.catAsian),
-  new Category("c9", "French", Colors.catFrench),
-  new Category("c10", "Summer", Colors.catSummer),
+  new Category("c1", "Italian", Colors.text200),
+  new Category("c2", "Quick & Easy", Colors.text200),
+  new Category("c3", "Hamburgers", Colors.text200),
+  new Category("c4", "German", Colors.text200),
+  new Category("c5", "Light & Lovely", Colors.text200),
+  new Category("c6", "Exotic", Colors.text200),
+  new Category("c7", "Breakfast", Colors.text200),
+  new Category("c8", "Asian", Colors.text200),
+  new Category("c9", "French", Colors.text200),
+  new Category("c10", "Summer", Colors.text200),
 ];
 
 export const MEALS = [

@@ -1,4 +1,5 @@
 import { Pressable, View, Text, StyleSheet, Platform } from "react-native";
+import Colors from "../constants/colors";
 
 function CategotyGridTile({ title, color, onPress }) {
   return (
@@ -55,5 +56,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: "bold",
+    color: Colors.primary800,
   },
 });
