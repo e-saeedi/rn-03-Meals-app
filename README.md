@@ -4,8 +4,6 @@
 
 A React Native mobile application for browsing and managing food recipes.
 
-## 📱 Screenshots
-*(Screenshots or GIFs coming soon)*
 
 ## ✨ Features
 - Browse food categories and recipe details.
@@ -41,8 +39,6 @@ npm start
 
 یک اپلیکیشن موبایل برای مشاهده و مدیریت دستور پخت غذاها، توسعه‌یافته با React Native.
 
-## 📱 اسکرین‌شات‌ها
-*(تصاویر محیط اپلیکیشن به زودی اضافه می‌شود)*
 
 ## ✨ ویژگی‌ها
 - نمایش دسته‌بندی غذاها و جزئیات دستور پخت.
